@@ -2,7 +2,8 @@
 
 # Portfolio: setup and mobile version skeleton
 
-   > A program for setting up a skeleton  for website for a mobile version
+   > this is portfolio website  to advertise yourself on the internet
+
 ## Built With
 
 - html
