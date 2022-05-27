@@ -1,7 +1,3 @@
-body {
-  margin: 0px;
-  padding: 0px;
-}
 
 .nav {
   display: flex;
@@ -30,8 +26,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 .main h1 {
-  color: #ff6b00;
+  color:#ff6b00;
   font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
@@ -55,10 +52,12 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+
 .main ul {
   display: flex;
   text-align: center;
 }
+
 .main ul li {
   list-style-type: none;
   padding: 5px;
