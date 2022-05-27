@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&display=swap");
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #3c3a39;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav i {
+  margin-right: 25px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  color: white;
+  height: 80vh;
+  background-color: #1c1a19;
+  background-image: url(images/bg.png);
+  background-position: bottom;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.main h1 {
+  margin-top: 90px;
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+}
+
+.main h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.main p {
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.main ul li {
+  color: black;
+  list-style-type: none;
+  padding-right: 17px;
+}
+
+.main ul li a {
+  color: white;
+  list-style-type: none;
+}
