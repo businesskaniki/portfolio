@@ -9,8 +9,16 @@
   color: white;
 }
 
-.nav h3 {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
   margin-left: 15px;
+  font-weight: bolder;
 }
 
 .nav i {
@@ -21,11 +29,11 @@
   justify-content: center;
   padding: 15px 15px;
   color: white;
+  height: 110vh;
   background-color: #1c1a19;
   background-image: url(images/bg.png);
+  background-position:right;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .main h1 {
@@ -44,6 +52,7 @@
 }
 
 .main p {
+  margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -51,11 +60,19 @@
 }
 
 .main ul {
+  margin-top: 10px;
   display: flex;
+  justify-content: flex-start;
   text-align: center;
 }
 
-.main ul li {
+.main ul li  {
+  color: black;
   list-style-type: none;
-  padding: 5px;
+  padding-right: 7px;
+}
+
+.main ul li a {
+  color: white;
+  list-style-type: none;
 }
