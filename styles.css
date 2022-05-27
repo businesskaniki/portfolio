@@ -62,11 +62,10 @@
 .main p {
   flex-wrap: wrap;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-right: 10px;
   font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 18px;
+  font-weight: 400px;
+  font-size: 16px;
 }
 
 .main ul {
