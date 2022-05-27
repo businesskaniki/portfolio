@@ -32,7 +32,7 @@
   height: 110vh;
   background-color: #1c1a19;
   background-image: url(images/bg.png);
-  background-position:right;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
@@ -66,7 +66,7 @@
   text-align: center;
 }
 
-.main ul li  {
+.main ul li {
   color: black;
   list-style-type: none;
   padding-right: 7px;
