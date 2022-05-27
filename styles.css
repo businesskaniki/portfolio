@@ -22,7 +22,7 @@ body {
 
 .main {
   justify-content: center;
-  padding:15px 15px;
+  padding: 15px 15px;
   color: white;
   background-color: #1c1a19;
   background-image: url(images/bg.png);
@@ -55,12 +55,11 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
-.main ul{
+.main ul {
   display: flex;
   text-align: center;
 }
 .main ul li {
   list-style-type: none;
   padding: 5px;
-  
 }
