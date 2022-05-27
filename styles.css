@@ -44,7 +44,7 @@
   color: #ff6b00;
   font-family: 'Crete Round', serif;
   font-style: normal;
-  font-weight:lighter ;
+  font-weight: lighter;
   font-size: 56px;
 }
 
@@ -57,7 +57,8 @@
 
 .main p {
   flex-wrap: wrap;
-  margin-top: 10px 0px;
+  margin-top: 10px;
+  margin-left: 10px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bolder;
