@@ -1,3 +1,5 @@
+/** @format */
+
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
@@ -18,7 +20,7 @@
 }
 
 .nav a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: white;
   margin-left: 15px;
@@ -46,14 +48,14 @@
 .main h1 {
   margin-top: 90px;
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
 }
 
 .main h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -84,4 +86,235 @@
 .main ul li a {
   color: white;
   list-style-type: none;
+}
+
+.work-section {
+  display: grid;
+  margin: 24px;
+}
+
+.work-section h1 {
+  text-align: center;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid black;
+}
+
+.img-container h2 {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.img-container p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 40px;
+}
+
+.img-container ul {
+  display: flex;
+}
+.img-container ul li {
+  margin-top: 10px;
+  list-style: none;
+  color: black;
+  padding: 12px 10px;
+  margin-right: 15px;
+  border: 1px solid black;
+}
+
+.img-container ul li a {
+  text-decoration: none;
+  margin: 5px;
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.img-container button {
+  border: none;
+  margin-top: 12px;
+  background-color: #ff6b00;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 386px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./images/Placeholder.png);
+}
+
+.card-title {
+  margin-top: 46px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  padding: 16px;
+  padding-top: 24px;
+}
+
+.supporting-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  padding-right: 96px;
+  padding-left: 16px;
+}
+
+.card-ul {
+  display: flex;
+  margin: 16px;
+}
+
+.card-li {
+  list-style: none;
+  padding: 10px 12px;
+  margin-right: 12px;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.card-a {
+  color: white;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  width: auto;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.about-div {
+  display: flex;
+  background-color: #1c1a19;
+  background-image: url(./images/Frame.png);
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background-position: 100% 100%;
+  height: 652px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid white;
+}
+
+.about-heading {
+  margin: 24px;
+  margin-top: 120px;
+  color: #ff6b00;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.about-descrp {
+  color: #ff6b00;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  font-style: normal;
+  margin: 0px 16px;
+  padding: 0px 16px;
+}
+
+.about-btn {
+  width: 161px;
+  height: 48px;
+  background-color: #ff6b00;
+  color: white;
+  margin-top: 40px;
+  margin-left: 24px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.languages {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  background-color: #1c1a19;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages i {
+  color: #ff6b00;
+  padding-right: 25px;
+}
+.lang-heading {
+  padding: 40px;
+  font-family: "InaiMathi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+}
+
+.lang-ul {
+  align-items: center;
+  text-align: center;
+}
+
+.lang-li {
+  list-style: none;
+  
+}
+
+.lang-p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  padding: 30px;
 }
