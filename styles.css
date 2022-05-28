@@ -124,6 +124,7 @@
 .img-container ul {
   display: flex;
 }
+
 .img-container ul li {
   margin-top: 10px;
   list-style: none;
@@ -164,6 +165,7 @@
   align-items: center;
   margin-bottom: 120px;
 }
+
 .card-body {
   display: flex;
   flex-direction: column;
@@ -253,14 +255,13 @@
 }
 
 .about-descrp {
-  color: #ff6b00;
   font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 16px;
   color: white;
   font-style: normal;
-  margin: 0px 16px;
-  padding: 0px 16px;
+  margin-right: 16px;
+  padding-right: 16px;
 }
 
 .about-btn {
@@ -289,9 +290,10 @@
   color: #ff6b00;
   padding-right: 25px;
 }
+
 .lang-heading {
   padding: 40px;
-  font-family: "InaiMathi";
+  font-family: "InaiMathi" ,sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -305,7 +307,6 @@
 
 .lang-li {
   list-style: none;
-  
 }
 
 .lang-p {
