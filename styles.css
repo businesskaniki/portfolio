@@ -167,7 +167,6 @@
 }
 
 .card-body {
-  
   display: flex;
   flex-direction: column;
   height: 386px;
