@@ -262,6 +262,7 @@
   font-style: normal;
   margin-right: 16px;
   padding-right: 16px;
+  padding-left: 24px;
 }
 
 .about-btn {
@@ -315,5 +316,5 @@
   font-weight: 400;
   font-size: 22px;
   color: white;
-  padding: 30px;
+  padding: 15px;
 }
