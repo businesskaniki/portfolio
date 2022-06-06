@@ -202,11 +202,11 @@
 }
 
 .card-ul {
-  display: flex;
   margin: 16px;
 }
 
 .card-li {
+  float: left;
   list-style: none;
   padding: 10px 12px;
   margin-right: 12px;
@@ -230,6 +230,7 @@
   color: white;
   width: auto;
   height: 48px;
+  padding: 7px;
   background-color: #ff6b00;
   border: none;
 }
