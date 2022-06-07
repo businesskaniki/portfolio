@@ -327,7 +327,7 @@
 
 .footer-text {
   text-align: center;
-  color:#172B4D;
+  color: #172b4d;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -341,15 +341,16 @@
   padding-top: 100px;
   text-align: center;
 }
+
 .form-ul li {
   list-style: none;
   padding-bottom: 40px;
-
 }
 
 .form-ul li label {
   display: none;
 }
+
 .form-ul li input {
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -368,7 +369,7 @@
   border: none;
   width: 295px;
   height: 114px;
-  background: #FBF8F7;
+  background: #fbf8f7;
   padding: 12px;
 }
 
@@ -378,13 +379,13 @@
   font-weight: 700;
   width: 131px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   padding: 12px;
   border: none;
   font-family: "Inter", sans-serif;
 }
 
-footer{
+footer {
   border-top: 0.4px solid gray;
   margin-top: 150px;
 }
