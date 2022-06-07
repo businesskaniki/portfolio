@@ -12,6 +12,11 @@
   color: white;
 }
 
+.form-ul li {
+  list-style: none;
+  padding-bottom: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -342,16 +347,11 @@
   text-align: center;
 }
 
-.zform-ul li {
-  list-style: none;
-  padding-bottom: 40px;
-}
-
-.zform-ul li label {
+.form-ul li label {
   display: none;
 }
 
-.zform-ul li input {
+.form-ul li input {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -362,7 +362,7 @@
   height: 18px;
 }
 
-.zform-ul li textarea {
+.form-ul li textarea {
   font-size: 15px;
   font-weight: 400;
   border: none;
