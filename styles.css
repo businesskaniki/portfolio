@@ -387,4 +387,23 @@
 footer {
   border-top: 0.4px solid gray;
   margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap:  20px;
+  list-style: none;
+  width: 150px;
+  height: 40px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #505F79;
+}
+
