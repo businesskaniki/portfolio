@@ -383,3 +383,8 @@
   border: none;
   font-family: "Inter", sans-serif;
 }
+
+footer{
+  border-top: 0.4px solid gray;
+  margin-top: 150px;
+}
