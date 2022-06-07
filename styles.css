@@ -12,6 +12,11 @@
   color: white;
 }
 
+.socials a {
+  text-decoration: none;
+  color: #505f79;
+}
+
 .form-ul li {
   list-style: none;
   padding-bottom: 40px;
@@ -396,14 +401,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  row-gap:  20px;
+  row-gap: 20px;
   list-style: none;
   width: 150px;
   height: 40px;
 }
-
-.socials a {
-  text-decoration: none;
-  color: #505F79;
-}
-
