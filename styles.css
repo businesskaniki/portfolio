@@ -320,3 +320,66 @@
   color: white;
   padding: 15px;
 }
+
+.footer {
+  padding-top: 100px;
+}
+
+.footer-text {
+  text-align: center;
+  color:#172B4D;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  font-family: "Inter", sans-serif;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 216px;
+}
+
+.form {
+  padding-top: 100px;
+  text-align: center;
+}
+.form-ul li {
+  list-style: none;
+  padding-bottom: 40px;
+
+}
+
+.form-ul li label {
+  display: none;
+}
+.form-ul li input {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 295px;
+  height: 18px;
+}
+
+.form-ul li textarea {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  border: none;
+  width: 295px;
+  height: 114px;
+  background: #FBF8F7;
+  padding: 12px;
+}
+
+.form button {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  width: 131px;
+  height: 48px;
+  background: #FF6B00;
+  padding: 12px;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
