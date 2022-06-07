@@ -342,16 +342,16 @@
   text-align: center;
 }
 
-.form-ul li {
+.zform-ul li {
   list-style: none;
   padding-bottom: 40px;
 }
 
-.form-ul li label {
+.zform-ul li label {
   display: none;
 }
 
-.form-ul li input {
+.zform-ul li input {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -362,10 +362,9 @@
   height: 18px;
 }
 
-.form-ul li textarea {
+.zform-ul li textarea {
   font-size: 15px;
   font-weight: 400;
-  padding-bottom: 10px;
   border: none;
   width: 295px;
   height: 114px;
