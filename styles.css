@@ -511,7 +511,7 @@ footer {
     height: 488px;
     padding-left: 24px;
   }
- 
+
   .work-text h2 {
     font-size: 40px;
     font-weight: 400px;
@@ -526,7 +526,7 @@ footer {
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  
+
   .cards {
     justify-content: left;
     align-items: left;
@@ -541,12 +541,12 @@ footer {
   .about {
     background-color: #1c1a19;
   }
-  
+
   .about-heading {
     font-size: 72px;
     font-weight: 400px;
   }
-  
+
   .about-descrp {
     font-size: 20px;
     font-weight: 400px;
@@ -576,6 +576,7 @@ footer {
     text-align: center;
     align-items: center;
   }
+  
   .lang-ul {
     align-items: left;
     text-align: left;
