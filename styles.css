@@ -1,7 +1,11 @@
+/** @format */
+
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cormorant+Garamond:wght@300&family=Crete+Round:ital@0;1&family=Dancing+Script:wght@500;600;700&family=Inter:wght@100;200;300;400&family=Mukta:wght@200&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,100&family=Redressed&family=Roboto:wght@100&family=Signika:wght@300;400;500;600;700&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cormorant+Garamond:wght@300&family=Crete+Round:ital@0;1&family=Dancing+Script:wght@500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,100&family=Redressed&family=Roboto:wght@100&family=Signika:wght@300;400;500;600;700&family=Space+Grotesk:wght@300&display=swap');
 
 .nav {
   display: flex;
@@ -27,7 +31,7 @@
   padding: 0;
 }
 
-.nav a {
+.heading {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: white;
@@ -36,7 +40,22 @@
   font-weight: 700;
 }
 
-.nav i {
+.nav-ul {
+  list-style: none;
+  margin-right: 156px;
+  display: none;
+}
+
+.nav-ul li {
+  margin-right: 25px;
+}
+
+.nav-ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#humb {
   margin-right: 25px;
 }
 
@@ -45,7 +64,7 @@
   flex-direction: column;
   padding: 15px;
   color: white;
-  height: 80vh;
+  height: 40vh;
   background-color: #1c1a19;
   background-image: url(images/bg.png);
   background-position: bottom;
@@ -297,20 +316,28 @@
   background-color: #1c1a19;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .languages i {
+  display: flex;
   color: #ff6b00;
   padding-right: 25px;
+  justify-content: center;
+  align-items: center;
 }
 
 .lang-heading {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   padding: 40px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   color: white;
+  justify-content: center;
 }
 
 .lang-ul {
@@ -319,6 +346,8 @@
 }
 
 .lang-li {
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
@@ -405,4 +434,203 @@ footer {
   list-style: none;
   width: 150px;
   height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .heading {
+    margin-left: 154px;
+  }
+
+  .nav-ul {
+    display: flex;
+  }
+
+  .nav {
+    height: 72px;
+  }
+
+  #humb {
+    display: none;
+  }
+
+  .main {
+    background-image: url(./images/Illustration-header@2x.png);
+    background-position: right;
+    background-size: contain;
+    padding-left: 143px;
+    height: 800px;
+  }
+
+  .main h1 {
+    font-size: 72px;
+    width: 450px;
+    padding-right: 150px;
+    padding-top: 50px;
+  }
+
+  .main p {
+    width: 450px;
+    font-size: 20px;
+  }
+
+  .main h4 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  .main ul {
+    position: absolute;
+    flex-direction: column;
+    left: 36px;
+    bottom: 40%;
+  }
+
+  .main ul li {
+    padding-bottom: 18px;
+  }
+
+  .img-container {
+    display: flex;
+  }
+
+  .img-container img {
+    width: 684px;
+    height: 488px;
+  }
+
+  .work-section {
+    margin-left: 141px;
+  }
+
+  .work-section h1 {
+    border: none;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400px;
+  }
+
+  .work-text {
+    flex-direction: column;
+    width: 478px;
+    height: 488px;
+    padding-left: 24px;
+  }
+
+  .work-text h2 {
+    font-size: 40px;
+    font-weight: 400px;
+  }
+
+  .work-text p {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #091e42;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .work-text ul {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .cards {
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 120px;
+    margin-left: 141px;
+    margin-right: 141px;
+    column-gap: 24px;
+    row-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 435px 435px;
+  }
+
+  .about {
+    background-color: #1c1a19;
+  }
+
+  .about-heading {
+    font-size: 72px;
+    font-weight: 400px;
+  }
+
+  .about-descrp {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .about-div {
+    background: none;
+    border: none;
+    background-image: url(./images/illustration-about\ me@2x.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 773px 353px;
+    border-bottom: 1px solid wheat;
+  }
+
+  .contents-about {
+    width: 566px;
+    margin-left: 142px;
+  }
+
+  .languages {
+    display: flex;
+    height: 403px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 153px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .lang-ul {
+    align-items: left;
+    text-align: left;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 590px 648px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-text {
+    padding-left: 135px;
+    text-align: start;
+    padding-right: 115px;
+  }
+
+  .form {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .form-ul li input {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 648px;
+    height: 18px;
+  }
+
+  .form-ul li textarea {
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    width: 648px;
+    height: 114px;
+    background: #fbf8f7;
+    padding: 12px;
+  }
 }
