@@ -587,6 +587,13 @@ footer {
     padding-top: 24px;
     padding-bottom: 24px;
   }
+  
+  .work-text ul li:hover {
+    background-color: #ff6b00;
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+    animation-duration: 2s;
+  }
 
   .cards {
     justify-content: left;
