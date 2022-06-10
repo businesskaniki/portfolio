@@ -4,8 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cormorant+Garamond:wght@300&family=Crete+Round:ital@0;1&family=Dancing+Script:wght@500;600;700&family=Inter:wght@100;200;300;400&family=Mukta:wght@200&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,100&family=Redressed&family=Roboto:wght@100&family=Signika:wght@300;400;500;600;700&family=Space+Grotesk:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cormorant+Garamond:wght@300&family=Crete+Round:ital@0;1&family=Dancing+Script:wght@500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,100&family=Redressed&family=Roboto:wght@100&family=Signika:wght@300;400;500;600;700&family=Space+Grotesk:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cormorant+Garamond:wght@300&family=Crete+Round:ital@0;1&family=Dancing+Script:wght@500;600;700&family=Inter:wght@100;200;300;400&family=Mukta:wght@200&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,100&family=Redressed&family=Roboto:wght@100&family=Signika:wght@300;400;500;600;700&family=Space+Grotesk:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cormorant+Garamond:wght@300&family=Crete+Round:ital@0;1&family=Dancing+Script:wght@500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,100&family=Redressed&family=Roboto:wght@100&family=Signika:wght@300;400;500;600;700&family=Space+Grotesk:wght@300&display=swap");
 
 .nav {
   display: flex;
@@ -110,8 +110,12 @@
 }
 
 @keyframes opacity {
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .main ul li {
@@ -481,7 +485,7 @@ footer {
   }
 
   .main h1 {
-   position: relative;
+    position: relative;
     font-size: 72px;
     width: 450px;
     padding-right: 150px;
@@ -489,14 +493,18 @@ footer {
     animation-name: dropdown;
     animation-duration: 1s;
   }
-  
-  .main h1:hover{
-    text-decoration: line-through; 
+
+  .main h1:hover {
+    text-decoration: line-through;
   }
 
   @keyframes dropdown {
-    0%{top: -200px;}
-    100%{top: 35px;}
+    0% {
+      top: -200px;
+    }
+    100% {
+      top: 35px;
+    }
   }
 
   .main p {
@@ -509,8 +517,12 @@ footer {
   }
 
   @keyframes sidedown {
-    0%{left: -200px;}
-    100%{left: 35px;}
+    0% {
+      left: -200px;
+    }
+    100% {
+      left: 35px;
+    }
   }
 
   .main h4 {
@@ -568,7 +580,7 @@ footer {
     font-weight: 400px;
     color: #091e42;
     line-height: 28px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .work-text ul {
@@ -601,7 +613,7 @@ footer {
   .about-descrp {
     font-size: 20px;
     font-weight: 200;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .about {
