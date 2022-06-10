@@ -113,6 +113,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -484,6 +485,13 @@ footer {
     height: 800px;
   }
 
+  .work-section h1 {
+    border: none;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400px;
+  }
+
   .main h1 {
     position: relative;
     font-size: 72px;
@@ -502,6 +510,7 @@ footer {
     0% {
       top: -200px;
     }
+
     100% {
       top: 35px;
     }
@@ -520,6 +529,7 @@ footer {
     0% {
       left: -200px;
     }
+
     100% {
       left: 35px;
     }
@@ -554,13 +564,6 @@ footer {
 
   .work-section {
     margin-left: 141px;
-  }
-
-  .work-section h1 {
-    border: none;
-    text-align: left;
-    font-size: 40px;
-    font-weight: 400px;
   }
 
   .work-text {
