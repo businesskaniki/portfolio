@@ -102,6 +102,16 @@
   display: flex;
   justify-content: flex-start;
   text-align: center;
+  opacity: 0;
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
 
 .main ul li {
@@ -445,6 +455,15 @@ footer {
     display: flex;
   }
 
+  .nav-ul li :hover {
+    background-color: #ff6b00;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: all;
+    transition: ease-in-out 250ms;
+  }
+
   .nav {
     height: 72px;
   }
@@ -462,15 +481,36 @@ footer {
   }
 
   .main h1 {
+   position: relative;
     font-size: 72px;
     width: 450px;
     padding-right: 150px;
     padding-top: 50px;
+    animation-name: dropdown;
+    animation-duration: 1s;
+  }
+  
+  .main h1:hover{
+    text-decoration: line-through; 
+  }
+
+  @keyframes dropdown {
+    0%{top: -200px;}
+    100%{top: 35px;}
   }
 
   .main p {
     width: 450px;
     font-size: 20px;
+    position: relative;
+    animation-name: sidedown;
+    animation-duration: 1s;
+    animation-delay: 1s;
+  }
+
+  @keyframes sidedown {
+    0%{left: -200px;}
+    100%{left: 35px;}
   }
 
   .main h4 {
@@ -548,8 +588,9 @@ footer {
     grid-template-rows: 435px 435px;
   }
 
-  .about {
-    background-color: #1c1a19;
+  .card-body:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
   }
 
   .about-heading {
@@ -561,6 +602,10 @@ footer {
     font-size: 20px;
     font-weight: 200;
     font-family: 'Inter', sans-serif;
+  }
+
+  .about {
+    background-color: #1c1a19;
   }
 
   .about-div {
