@@ -597,7 +597,7 @@ footer {
     transition: transform 250ms ease-in-out;
     animation-duration: 2s;
   }
-
+  
   .cards {
     justify-content: left;
     align-items: left;
