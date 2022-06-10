@@ -527,7 +527,7 @@ footer {
 
   @keyframes sidedown {
     0% {
-      left: -200px;
+      left: -201px;
     }
 
     100% {
