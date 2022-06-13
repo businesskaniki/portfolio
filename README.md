@@ -10,6 +10,9 @@
 - css
 # get this project on your local repo 
  >git clone https://github.com/businesskaniki/portfolio.git
+ # see the deployed version of the project at
+  https://businesskaniki.github.io/portfolio/
+
 ## Authors
 
 👤 **Author1**
