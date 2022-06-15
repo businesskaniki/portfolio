@@ -16,6 +16,18 @@
   color: white;
 }
 
+.form button {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  padding: 12px;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+
 .socials a {
   text-decoration: none;
   color: #505f79;
@@ -433,18 +445,6 @@
   height: 114px;
   background: #fbf8f7;
   padding: 12px;
-}
-
-.form button {
-  color: white;
-  font-size: 17px;
-  font-weight: 700;
-  width: 131px;
-  height: 48px;
-  background: #ff6b00;
-  padding: 12px;
-  border: none;
-  font-family: "Inter", sans-serif;
 }
 
 .form button:hover {
