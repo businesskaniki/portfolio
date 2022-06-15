@@ -277,6 +277,7 @@
   padding: 7px;
   background-color: #ff6b00;
   border: none;
+  cursor: pointer;
 }
 
 .about-div {
