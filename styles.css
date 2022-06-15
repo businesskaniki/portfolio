@@ -202,6 +202,12 @@
   text-align: center;
 }
 
+.img-container button:hover {
+  background-color: antiquewhite;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
 .cards {
   display: grid;
   justify-content: center;
@@ -323,6 +329,13 @@
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  background-color: antiquewhite;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
 }
 
 .languages {
@@ -432,6 +445,12 @@
   padding: 12px;
   border: none;
   font-family: "Inter", sans-serif;
+}
+
+.form button:hover {
+  background-color: antiquewhite;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
 }
 
 footer {
