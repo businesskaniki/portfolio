@@ -14,28 +14,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="index.js"></script>
     <title>portfolio</title>
   </head>
   <body>
     <header class="nav">
       <a class="heading" href="#">John Doe</a>
-      <ul class="nav-ul" id="nav-item">
+      <ul class="nav-ul nav-item">
         <li>
-          <a href="">portfolio</a>
+          <a class="menu-item" href="">portfolio</a>
         </li>
         <li>
-          <a href="">About</a>
+          <a class="menu-item" href="">About</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a class="menu-item" href="">Contact</a>
         </li>
         <li>
-          <a href=""><i class="fa-solid fa-envelope"></i></a>
+          <a class="menu-item" href=""><i class="fa-solid fa-envelope"></i></a>
         </li>
       </ul>
-      <i id="humb" onclick = "onClick()" class="fa-solid fa-bars"></i>
-      <button id="close-btn" onclick="close()">X</button>
+      <button id="humb" class="fa-solid fa-bars">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
     </header>
     <section class="main">
       <h1>Hey There. I`m Nick</h1>
