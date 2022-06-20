@@ -14,12 +14,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="index.js"></script>
     <title>portfolio</title>
   </head>
   <body>
     <header class="nav">
       <a class="heading" href="#">John Doe</a>
-      <ul class="nav-ul">
+      <ul class="nav-ul" id="nav-item">
         <li>
           <a href="">portfolio</a>
         </li>
@@ -33,7 +34,7 @@
           <a href=""><i class="fa-solid fa-envelope"></i></a>
         </li>
       </ul>
-      <i id="humb" class="fa-solid fa-bars"></i>
+      <i id="humb" onclick = "onClick()" class="fa-solid fa-bars"></i>
     </header>
     <section class="main">
       <h1>Hey There. I`m Nick</h1>
