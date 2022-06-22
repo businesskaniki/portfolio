@@ -55,7 +55,6 @@
 .nav-ul {
   align-items: flex-start;
   list-style: none;
-  color: #FFF5E1;
   display: none;
   flex-direction: column;
   background-color: #3c3a39;
@@ -89,7 +88,7 @@
 }
 
 .nav-ul li a {
-  color: #FFF5E1;
+  color: #fff5e1;
   text-decoration: none;
   font-size: 32px;
   padding-top: 40px;
