@@ -47,10 +47,11 @@
   display: none;
   flex-direction: column;
   background-color:#3C3A39;
-  width: 375px;
+  width: 355px;
   height: 755px;
   z-index: 100;
   position: absolute;
+  margin-top: 10%;
   left: 0;
   padding-right: 35px;
   padding-top: 108px;
@@ -58,9 +59,14 @@
   top: 0%;
 }
 
+.nav-ul.active {
+  display: flex;
+}
+
 
 #envelope {
   display: none;
+  z-index: 200;
 }
 
 hr {
@@ -87,10 +93,22 @@ hr {
 
 #humb {
   display: block;
+  padding-right: 20px;
  
 }
 
-.bars {
+#humb.active.bar:nth-child(2){
+  opacity: 0;
+}
+
+#humb.active.bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+#humb.active.bar:nth-child(3){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.bar {
   display: block;
   width: 25px;
   height: 3px;
