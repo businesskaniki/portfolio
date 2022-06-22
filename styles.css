@@ -55,21 +55,19 @@
 .nav-ul {
   align-items: flex-start;
   list-style: none;
-  color: white;
+  color: #FFF5E1;
   display: none;
   flex-direction: column;
   background-color: #3c3a39;
   width: 375px;
-  height: 700px;
+  height: 570px;
   z-index: 100;
   position: absolute;
-  margin-top: 10%;
-  margin-bottom: 50%;
   left: 0;
-  padding-right: 39px;
   padding-top: 110px;
   bottom: 0%;
   top: 0%;
+  overflow: hidden;
 }
 
 .nav-ul.active {
@@ -79,12 +77,6 @@
 #envelope {
   display: none;
   z-index: 200;
-}
-
-hr {
-  width: 327px;
-  padding-left: 30px;
-  margin-top: 15px;
 }
 
 .nav-ul li {
@@ -97,7 +89,7 @@ hr {
 }
 
 .nav-ul li a {
-  color: white;
+  color: #FFF5E1;
   text-decoration: none;
   font-size: 32px;
   padding-top: 40px;
@@ -108,6 +100,7 @@ hr {
 #humb {
   display: block;
   padding-right: 20px;
+  z-index: 100000;
 }
 
 .bar {
@@ -118,7 +111,6 @@ hr {
   transition: all 0.3s ease-in-out;
   background-color: white;
   -webkit-transition: all 0.3s ease-in-out;
-  background-color: white;
 }
 
 #humb.active .bar:nth-child(2) {
@@ -548,6 +540,8 @@ footer {
     position: relative;
     padding-top: 2px;
     margin: 0;
+    width: 375px;
+    overflow: visible;
   }
 
   .nav-ul li {
