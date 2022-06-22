@@ -1,0 +1,1 @@
+const Humbe= document.querySelector('#humb');
