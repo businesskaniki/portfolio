@@ -102,6 +102,7 @@ hr {
 #humb.active.bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
+
 #humb.active.bar:nth-child(3) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -518,7 +519,7 @@ footer {
     display: flex;
     flex-direction: row;
     width: 0px;
-    height: 0;
+    height: 0px;
     text-align: center;
     align-items: center;
     justify-content: end;
@@ -688,7 +689,6 @@ footer {
 
   .cards {
     justify-content: left;
-    align-items: left;
     margin-bottom: 120px;
     margin-left: 141px;
     margin-right: 141px;
@@ -705,7 +705,7 @@ footer {
 
   .about-heading {
     font-size: 72px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   .about-descrp {
@@ -745,7 +745,6 @@ footer {
   }
 
   .lang-ul {
-    align-items: left;
     text-align: left;
   }
 
