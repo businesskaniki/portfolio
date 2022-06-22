@@ -70,7 +70,6 @@
   padding-top: 110px;
   bottom: 0%;
   top: 0%;
-  overflow: hidden;
 }
 
 .nav-ul.active {
@@ -556,6 +555,7 @@ footer {
     padding-right: 32px;
     margin: 0;
     gap: 32px;
+    border: none;
   }
 
   .nav-ul li a {
