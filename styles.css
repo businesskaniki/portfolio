@@ -59,16 +59,18 @@
   display: none;
   flex-direction: column;
   background-color: #3c3a39;
-  width: 355px;
-  height: 755px;
+  width: 375px;
+  height: 700px;
   z-index: 100;
   position: absolute;
   margin-top: 10%;
+  margin-bottom: 50%;
   left: 0;
-  padding-right: 35px;
-  padding-top: 108px;
+  padding-right: 39px;
+  padding-top: 110px;
   bottom: 0%;
   top: 0%;
+  overflow: hidden;
 }
 
 .nav-ul.active {
@@ -88,9 +90,11 @@ hr {
 
 .nav-ul li {
   padding-left: 35px;
-  margin-right: 25px;
   margin-bottom: 40px;
+  margin-left: 15px;
   padding-bottom: 15px;
+  width: 100%;
+  border-bottom: 1px solid gray;
 }
 
 .nav-ul li a {
@@ -116,7 +120,7 @@ hr {
 }
 
 #humb.active.bar:nth-child(3) {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(-8px) rotate(45deg);
 }
 
 .bar {
