@@ -40,13 +40,13 @@
   font-weight: 700;
 }
 
-.nav-ul{
+.nav-ul {
   align-items: flex-start;
   list-style: none;
   color: white;
   display: none;
   flex-direction: column;
-  background-color:#3C3A39;
+  background-color: #3c3a39;
   width: 355px;
   height: 755px;
   z-index: 100;
@@ -62,7 +62,6 @@
 .nav-ul.active {
   display: flex;
 }
-
 
 #envelope {
   display: none;
@@ -94,17 +93,16 @@ hr {
 #humb {
   display: block;
   padding-right: 20px;
- 
 }
 
-#humb.active.bar:nth-child(2){
+#humb.active.bar:nth-child(2) {
   opacity: 0;
 }
 
-#humb.active.bar:nth-child(1){
+#humb.active.bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
-#humb.active.bar:nth-child(3){
+#humb.active.bar:nth-child(3) {
   transform: translateY(8px) rotate(45deg);
 }
 
@@ -517,18 +515,17 @@ footer {
   }
 
   .nav-ul {
-   display: flex;
-   flex-direction: row;
-   width: 0px;
-   height: 0;
-   text-align: center;
-   align-items: center;
-   justify-content: end;
-   position: relative;
-   padding-top:2px;
-   margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 0px;
+    height: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    padding-top: 2px;
+    margin: 0;
   }
-
 
   .nav-ul li {
     align-items: center;
@@ -536,7 +533,7 @@ footer {
     margin: 0;
     gap: 32px;
   }
-  
+
   .nav-ul li a {
     color: white;
     text-decoration: none;
@@ -546,8 +543,8 @@ footer {
     line-height: 20px;
     font-family: "Roboto", sans-serif;
   }
-  
-  hr{
+
+  hr {
     display: none;
   }
 
@@ -580,7 +577,7 @@ footer {
     border: none;
     text-align: left;
     font-size: 40px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   .main h1 {
@@ -666,12 +663,12 @@ footer {
 
   .work-text h2 {
     font-size: 40px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   .work-text p {
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #091e42;
     line-height: 28px;
     font-family: "Inter", sans-serif;
