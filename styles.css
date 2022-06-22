@@ -110,6 +110,17 @@ hr {
   padding-right: 20px;
 }
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
 #humb.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -120,17 +131,6 @@ hr {
 
 #humb.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  transition: all 0.3s ease-in-out;
-  background-color: white;
-  -webkit-transition: all 0.3s ease-in-out;
-  background-color: white;
 }
 
 .main {
@@ -299,7 +299,7 @@ hr {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(./images/Placeholder.png);
+  background-image: url(./images/image5.png);
 }
 
 .card-title {
