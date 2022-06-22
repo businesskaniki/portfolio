@@ -518,8 +518,7 @@ footer {
   .nav-ul {
     display: flex;
     flex-direction: row;
-    width: 0px;
-    height: 0px;
+    height: 1px;
     text-align: center;
     align-items: center;
     justify-content: end;
