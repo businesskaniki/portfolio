@@ -40,7 +40,7 @@
   font-weight: 700;
 }
 
-.nav-ul {
+.nav-ul{
   align-items: flex-start;
   list-style: none;
   color: white;
@@ -57,6 +57,7 @@
   bottom: 0%;
   top: 0%;
 }
+
 
 #envelope {
   display: none;
@@ -97,7 +98,7 @@ hr {
   transition: all 0.3s ease-in-out;
   background-color: white;
   -webkit-transition: all 0.3s ease-in-out;
-
+  z-index: 10000;
 }
 
 .main {
