@@ -909,7 +909,6 @@ article.popup-content > * {
     padding: 12px;
   }
 
-
   article.popup-content > * {
     margin: 0;
     padding: 0;
@@ -931,15 +930,6 @@ article.popup-content > * {
     top: 7%;
     right: 5%;
     color: black;
-  }
-
-  .popup-content > h1 {
-    color: #172b4d;
-  }
-
-  .popup-content > ul > li {
-    color: #3c3a39;
-    border: 1px solid #979493;
   }
 
   .popup-content > p {
