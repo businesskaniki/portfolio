@@ -1,39 +1,30 @@
-const dropdown = document.querySelector('.dropdown');
-const modal = document.querySelector('.modal');
-const closeModal = document.querySelector('.close-modal');
-const links = document.querySelectorAll('.modal-links');
-
-dropdown.addEventListener('click', () => {
-  modal.style.display = 'block';
-});
-
-closeModal.addEventListener('click', () => {
-  modal.style.display = 'none';
-});
-
-for (let i = 0; i < links.length; i += 1) {
-  links[i].addEventListener('click', () => {
-    modal.style.display = 'none';
-  });
-}
-
-const projects = document.querySelector('.projects');
+const projects = document.querySelector('.img-container');
 
 const article = document.createElement('article');
 article.classList.add('multi-post');
-article.innerHTML = `<img src='./images/multi-post.png' alt='project image' class='project-image'>
-<div class='multi-post content'>
-<h1 class='post-title'>Multi Post Stories</h1>
-<p class='post-description'>A daily selection of privately personalized reads; no accounts or sign-ups required.
-  has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a standard dummy text.</p>
-  <ul class='article-tags'>
-    <li>Css</li>
-    <li>html</li>
-    <li>bootstrap</li>
-    <li>Ruby</li>
+article.innerHTML = `<img src="./images/image1.png" alt="image" />
+<div class="work-text">
+  <h2>Multi-Posts Stories</h2>
+  <p>
+    A daily selection of privately personalized reads; no accounts or
+    sign-ups required. has been the industry's standard dummy text ever
+    since the 1500s, when an unknown printer took a standard dummy text.
+  </p>
+  <ul>
+    <li>
+      <a href="#">css</a>
+    </li>
+    <li>
+      <a href="#">html</a>
+    </li>
+    <li>
+      <a href="#">Bootstrap</a>
+    </li>
+    <li>
+      <a href="#">Ruby</a>
+    </li>
   </ul>
-<button type='button' class='article-btn'>See Project</button>
+  <button type="button" class="article-btn">see project</button>
 </div>`;
 
 projects.appendChild(article);
@@ -41,7 +32,7 @@ projects.appendChild(article);
 function addProjectCards() {
   for (let i = 0; i < 6; i += 1) {
     const div = document.createElement('div');
-    div.classList.add('project-card');
+    div.classList.add('card-body');
     if (i === 0) {
       div.classList.add('one');
     } else if (i === 1) {
@@ -56,16 +47,25 @@ function addProjectCards() {
       div.classList.add('six');
     }
 
-    div.innerHTML = `<h1 class='project-title'>Professional Art Printing Data</h1>
-    <p class='project-description'>A daily selection of privately personalized reads; 
-      no accounts or sign-ups required.
-      has been the industry's standard</p>
-    <ul class='project-tags'>
-      <li>html</li>
-      <li>bootstrap</li>
-      <li>Ruby</li>
-    </ul>
-    <button type='button' class='project-btn'>See Project</button>`;
+    div.innerHTML = `<h1 class="card-title">Profesional Art Printing Data</h1>
+        <p class="supporting-text">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard
+        </p>
+        <ul class="card-ul">
+          <li class="card-li">
+            <a href="" class="card-a">html</a>
+          </li>
+
+          <li class="card-li">
+            <a href="" class="card-a">bootstrap</a>
+          </li>
+
+          <li class="card-li">
+            <a href="" class="card-a">ruby</a>
+          </li>
+        </ul>
+        <button   type="button" class="project-btn">see project</button>`;
     projects.appendChild(div);
   }
 }
@@ -77,7 +77,7 @@ const popupArray = [
     name: 'Multi Post Stories',
     technologies: ['Css', 'html', 'bootstrap', 'Ruby'],
     image: {
-      imageSrc: './images/multi-post.png',
+      imageSrc: './images/image5.png',
       imageAlt: 'project image',
     },
     description: `A daily selection of privately personalized reads; no accounts or sign-ups required.
@@ -91,84 +91,84 @@ const popupArray = [
     name: 'Professional Art Printing Data 1',
     technologies: ['html', 'bootstrap', 'Ruby'],
     image: {
-      imageSrc: './images/project-card.png',
+      imageSrc: './images/image5.png',
       imageAlt: 'project image',
     },
     description: `A daily selection of privately personalized reads 
     no accounts or sign-ups required.
     has been the industry's standard`,
-    live: 'https://pinkmoon25.github.io/Portfolio/',
-    Source: 'https://github.com/PinkMoon25/Portfolio',
+    live: 'https://businesskaniki.github.io/portfolio/',
+    Source: 'https://github.com/businesskaniki/portfolio',
   },
 
   {
-    name: 'Professional Art Printing Data 2',
+    name: 'Professional Art Printing Data 1',
     technologies: ['html', 'bootstrap', 'Ruby'],
     image: {
-      imageSrc: './images/card_background.png',
+      imageSrc: './images/image5.png',
       imageAlt: 'project image',
     },
     description: `A daily selection of privately personalized reads 
     no accounts or sign-ups required.
     has been the industry's standard`,
-    live: 'https://pinkmoon25.github.io/Portfolio/',
-    Source: 'https://github.com/PinkMoon25/Portfolio',
+    live: 'https://businesskaniki.github.io/portfolio/',
+    Source: 'https://github.com/businesskaniki/portfolio',
   },
 
   {
-    name: 'Professional Art Printing Data 3',
+    name: 'Professional Art Printing Data 1',
     technologies: ['html', 'bootstrap', 'Ruby'],
     image: {
-      imageSrc: './images/card_background.png',
+      imageSrc: './images/image5.png',
       imageAlt: 'project image',
     },
     description: `A daily selection of privately personalized reads 
     no accounts or sign-ups required.
     has been the industry's standard`,
-    live: 'https://pinkmoon25.github.io/Portfolio/',
-    Source: 'https://github.com/PinkMoon25/Portfolio',
+    live: 'https://businesskaniki.github.io/portfolio/',
+    Source: 'https://github.com/businesskaniki/portfolio',
   },
 
   {
-    name: 'Professional Art Printing Data 4',
+    name: 'Professional Art Printing Data 1',
     technologies: ['html', 'bootstrap', 'Ruby'],
     image: {
-      imageSrc: './images/card_background.png',
+      imageSrc: './images/image5.png',
       imageAlt: 'project image',
     },
     description: `A daily selection of privately personalized reads 
     no accounts or sign-ups required.
     has been the industry's standard`,
-    live: 'https://pinkmoon25.github.io/Portfolio/',
-    Source: 'https://github.com/PinkMoon25/Portfolio',
+    live: 'https://businesskaniki.github.io/portfolio/',
+    Source: 'https://github.com/businesskaniki/portfolio',
   },
 
   {
-    name: 'Professional Art Printing Data 5',
+    name: 'Professional Art Printing Data 1',
     technologies: ['html', 'bootstrap', 'Ruby'],
     image: {
-      imageSrc: './images/card_background.png',
+      imageSrc: './images/image5.png',
       imageAlt: 'project image',
     },
     description: `A daily selection of privately personalized reads 
     no accounts or sign-ups required.
     has been the industry's standard`,
-    live: 'https://pinkmoon25.github.io/Portfolio/',
-    Source: 'https://github.com/PinkMoon25/Portfolio',
+    live: 'https://businesskaniki.github.io/portfolio/',
+    Source: 'https://github.com/businesskaniki/portfolio',
   },
 
   {
-    name: 'Professional Art Printing Data 6',
+    name: 'Professional Art Printing Data 1',
     technologies: ['html', 'bootstrap', 'Ruby'],
     image: {
-      imageSrc: './images/card_background.png',
+      imageSrc: './images/image5.png',
       imageAlt: 'project image',
     },
     description: `A daily selection of privately personalized reads 
     no accounts or sign-ups required.
     has been the industry's standard`,
-    live: 'https://pinkmoon25.github.io/Portfolio/',
-    Source: 'https://github.com/PinkMoon25/Portfolio',
+    live: 'https://businesskaniki.github.io/portfolio/',
+    Source: 'https://github.com/businesskaniki/portfolio',
   },
 ];
 
