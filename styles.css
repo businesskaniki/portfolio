@@ -629,31 +629,6 @@ article.popup-content > * {
   height: 220px;
 }
 
-.popup-content > button {
-  width: max-content;
-  padding: 12px;
-  display: flex;
-  gap: 5px;
-  transition: all 0.3s ease;
-}
-
-.popup-content > button > a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.popup-content > button > a:hover {
-  transform: skew(10deg);
-  color: #ff6b00;
-  background-color: #fff;
-}
-
-.project-btn.popup-btn-source {
-  position: absolute;
-  bottom: 3%;
-  right: 15%;
-}
-
 @media only screen and (min-width: 768px) {
   .heading {
     margin-left: 154px;
