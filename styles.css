@@ -215,7 +215,6 @@
 
 .work-title {
   padding-top: 108px;
-  margin-bottom: 84px;
   padding-bottom: 48px;
   font-family: 'Crete Round', serif;
   font-size: 40px;
@@ -226,6 +225,11 @@
 
 .img-container {
   display: grid;
+  margin-bottom: 50px;
+}
+
+.work-text {
+  margin-left: 24px;
 }
 
 .work-text h2 {
@@ -236,6 +240,7 @@
   text-align: left;
   padding-left: 24px;
   padding-bottom: 12px;
+  width: 327px;
 }
 
 .work-text p {
@@ -263,7 +268,6 @@
   justify-content: center;
   height: 40px;
   left: 0;
-  padding: 10px 12px 10px 12px;
   border: 1px solid #8993a4;
 }
 
@@ -302,6 +306,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 140px;
   justify-content: center;
 }
 
@@ -317,6 +322,7 @@
   width: 327px;
   left: 0;
   top: 0;
+  height: 435px;
   border-radius: 0;
   display: flex;
   flex-direction: column;
@@ -324,6 +330,7 @@
   justify-content: flex-end;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 24px;
 }
 
 .card-body:hover {
@@ -649,6 +656,7 @@ footer {
 .popupLink {
   text-decoration: none;
   color: white;
+  padding: 27px;
 }
 
 article.popup-content > * {
@@ -683,6 +691,7 @@ article.popup-content > * {
 
 .popup-content > p {
   color: #344563;
+  padding-right: 24px;
 }
 
 .popup-content > img {
@@ -854,7 +863,8 @@ article.popup-content > * {
     gap: 10px 20px;
     display: grid;
     grid-template-columns: 369px 369px 369px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 435px 435px 435px;
+    margin-bottom: 100px;
   }
 
   .article-btn {
@@ -862,12 +872,12 @@ article.popup-content > * {
   }
 
   .multi-post {
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
     display: flex;
     grid-column-start: span 3;
     width: 100%;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 140px;
   }
 
   .multi-post img {
@@ -879,7 +889,7 @@ article.popup-content > * {
   }
 
   .card-body {
-    margin-top: 24px;
+    margin-top: 100px;
   }
 
   .work-text {
@@ -893,6 +903,7 @@ article.popup-content > * {
     font-size: 40px;
     font-weight: 400;
   }
+  
 
   .work-text p {
     font-size: 20px;
@@ -932,6 +943,7 @@ article.popup-content > * {
 
   .about {
     background-color: #1c1a19;
+    margin-top: 108px;
   }
 
   .about-div {
@@ -1006,7 +1018,12 @@ article.popup-content > * {
 
   article.popup-content > * {
     margin: 0;
-    padding: 0;
+  }
+
+  .popupLink {
+    text-decoration: none;
+    color: white;
+    padding: 1px;
   }
 
   .popup-content {
@@ -1029,7 +1046,7 @@ article.popup-content > * {
 
   .popup-content > p {
     position: absolute;
-    right: 6%;
+    right: 0%;
     width: 35%;
     top: 26%;
     color: #344563;
@@ -1055,12 +1072,13 @@ article.popup-content > * {
   }
 
   .popup-btn-live {
-    bottom: 4%;
+    bottom: 12%;
     right: 24%;
   }
 
   .project-btn.popup-btn-source {
-    bottom: 4%;
+    bottom: 12%;
     right: 10%;
   }
+  
 }
