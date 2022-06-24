@@ -625,6 +625,11 @@ footer {
   transform: skew(10deg);
 }
 
+.popupLink{
+  text-decoration: none;
+  color: white;
+}
+
 .popup-container {
   width: 100vw;
   height: 100vh;
@@ -648,7 +653,7 @@ article.popup-content > * {
   position: relative;
   margin: 30px 16px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 10px;
   padding: 15px;
@@ -1003,7 +1008,7 @@ article.popup-content > * {
     width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 10px;
     padding: 25px;
     background-color: #fff;
