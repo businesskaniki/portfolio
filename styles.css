@@ -1059,7 +1059,7 @@ article.popup-content > * {
     justify-content: start;
     list-style: none;
   }
-  
+
   .close-popup i {
     position: absolute;
     top: 7%;
@@ -1073,7 +1073,7 @@ article.popup-content > * {
     width: 35%;
     top: 26%;
     color: #344563;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .imagediv {
@@ -1118,7 +1118,7 @@ article.popup-content > * {
   }
 
   .paradiv p {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -1149,19 +1149,19 @@ article.popup-content > * {
     bottom: 12%;
     right: 24%;
   }
-  .buttondiv .project-btn {
-    text-align: center;
-    width: auto
-  }
-
-
-  .project-btn {
-    text-align: center;
-    width: 100%;
-  }
 
   .project-btn.popup-btn-source {
     bottom: 12%;
     right: 10%;
+  }
+
+  .buttondiv.project-btn {
+    text-align: center;
+    width: auto;
+  }
+
+  .project-btn {
+    text-align: center;
+    width: 100%;
   }
 }
