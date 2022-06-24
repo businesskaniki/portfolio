@@ -713,6 +713,7 @@ article.popup-content > * {
   align-items: center;
   flex-direction: column;
 }
+
 .buttondiv {
   display: flex;
   flex-direction: row;
@@ -733,10 +734,6 @@ article.popup-content > * {
 @media only screen and (min-width: 768px) {
   .popup-content > h1 {
     color: #172b4d;
-  }
-
-  buttondiv {
-    display: none;
   }
 
   .nav-ul li {
@@ -1063,7 +1060,6 @@ article.popup-content > * {
     list-style: none;
   }
   
-
   .close-popup > i {
     position: absolute;
     top: 7%;
@@ -1153,7 +1149,8 @@ article.popup-content > * {
     bottom: 12%;
     right: 24%;
   }
-  .project-btn{
+  
+  .project-btn {
     text-align: center;
     width: auto;
   }
