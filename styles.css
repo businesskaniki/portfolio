@@ -1060,7 +1060,7 @@ article.popup-content > * {
     list-style: none;
   }
   
-  .close-popup > i {
+  .close-popup i {
     position: absolute;
     top: 7%;
     right: 5%;
@@ -1140,7 +1140,7 @@ article.popup-content > * {
     gap: 5px;
   }
 
-  .popup-content > button > a {
+  .popup-content button a {
     text-decoration: none;
     color: #fff;
   }
@@ -1149,10 +1149,15 @@ article.popup-content > * {
     bottom: 12%;
     right: 24%;
   }
-  
+  .buttondiv .project-btn {
+    text-align: center;
+    width: auto
+  }
+
+
   .project-btn {
     text-align: center;
-    width: auto;
+    width: 100%;
   }
 
   .project-btn.popup-btn-source {
