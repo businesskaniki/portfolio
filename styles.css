@@ -371,7 +371,6 @@
   align-items: center;
   width: 100%;
   height: 50px;
-  padding-left: 40%;
   background-color: #ff6b00;
 }
 
@@ -663,6 +662,7 @@ article.popup-content > * {
   margin: 0;
   padding: 0;
   position: static;
+  width: 100%;
 }
 
 .popup-content {
@@ -703,7 +703,22 @@ article.popup-content > * {
   display: flex;
   align-items: center;
   gap: 12px;
+  justify-content: center;
   list-style: none;
+}
+
+.alldiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttondiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .project-image {
@@ -718,6 +733,10 @@ article.popup-content > * {
 @media only screen and (min-width: 768px) {
   .popup-content > h1 {
     color: #172b4d;
+  }
+
+  buttondiv {
+    display: none;
   }
 
   .nav-ul li {
@@ -1022,7 +1041,7 @@ article.popup-content > * {
   .popupLink {
     text-decoration: none;
     color: white;
-    padding: 1px;
+    padding: 25px;
   }
 
   .popup-content {
@@ -1035,6 +1054,15 @@ article.popup-content > * {
     padding: 25px;
     background-color: #fff;
   }
+
+  .project-tags {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: start;
+    list-style: none;
+  }
+  
 
   .close-popup > i {
     position: absolute;
@@ -1070,7 +1098,19 @@ article.popup-content > * {
 
   .alldiv {
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
+    overflow: hidden;
+  }
+
+  .buttondiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 10px;
+    width: 100px;
+    margin-bottom: 30px;
   }
 
   .paradiv {
@@ -1079,7 +1119,6 @@ article.popup-content > * {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
   }
 
   .paradiv p {
@@ -1113,6 +1152,10 @@ article.popup-content > * {
   .popup-btn-live {
     bottom: 12%;
     right: 24%;
+  }
+  .project-btn{
+    text-align: center;
+    width: auto;
   }
 
   .project-btn.popup-btn-source {

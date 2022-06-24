@@ -218,15 +218,21 @@ function popup(i) {
   alldiv.append(div1, pardiv);
   popupContent.appendChild(alldiv);
 
+  const buttondiv = document.createElement('div');
+  buttondiv.classList.add('buttondiv');
+
   const buttonLive = document.createElement('button');
   buttonLive.classList.add('project-btn', 'popup-btn-live');
   buttonLive.setAttribute('type', 'button');
-  popupContent.appendChild(buttonLive);
+  // popupContent.appendChild(buttonLive);
 
   const buttonSource = document.createElement('button');
   buttonSource.classList.add('project-btn', 'popup-btn-source');
   buttonSource.setAttribute('type', 'button');
-  popupContent.appendChild(buttonSource);
+  // popupContent.appendChild(buttonSource);
+
+  buttondiv.append(buttonLive, buttonSource);
+  popupContent.appendChild(buttondiv);
 
   const liveLink = document.createElement('a');
   liveLink.classList.add('popupLink');
