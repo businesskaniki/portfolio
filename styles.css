@@ -197,20 +197,18 @@
 
 .work-section {
   display: grid;
-  margin-left: 24px;
+  text-align: center;
 }
 
-.work-section h1 {
-  text-align: center;
-  font-family: "Crete Round", serif;
-  font-weight: 400;
+.work-title {
+  padding-top: 108px;
+  margin-bottom: 84px;
+  padding-bottom: 48px;
+  font-family: 'Crete Round', serif;
   font-size: 40px;
+  font-weight: 400;
   line-height: 52px;
-  padding-bottom: 40px;
-  margin-right: 20px;
-  margin-top: 120px;
-  margin-bottom: 80px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
 }
 
 .img-container{
@@ -218,7 +216,188 @@
   display: grid;
 }
 
+.work-text h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  padding-left: 24px;
+  padding-bottom: 12px;
+}
+
+.work-text p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 24px;
+  text-align: left;
+
+}
+
+.work-text ul {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  left: 0px;
+  margin-top: 12px;
+  padding-left: 24px;
+}
+
+.work-text ul li {
+  margin-right:12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  left: 0px;
+  padding: 10px, 12px, 10px, 12px;
+  border: 1px solid #8993A4;
+}
+
+.work-text ul li a{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #091E42;
+  padding: 12px 12px;
+
+}
+
+.article-btn {
+  color: white;
+  background-color: #ff6b00;
+  margin-top: 12px;
+  height: 48px;
+  top: 259px;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: none;
+  margin-bottom: 12px;
+  margin-left: -55%;
+}
+
+.multi-post {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.multi-post img {
+  padding-bottom: 24px;
+}
+
+.card-body {
+  background-image: url(./images/Img\ Placeholder\(13\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 24px;
+  margin-right: 24px;
+  }
+
+  .card-body:hover {
+    background-image: url(./images/Img\ Placeholder\(12\).png);
+  }
+
+.card-title {
+  padding-bottom: 24px;
+  color: white;
+  width: 295px;
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+
+.card-ul {
+  width: 295px;
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.project-btn{
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding-left: 40%;
+  background-color: #ff6b00;
+}
+
+.card-li {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  width: 95px;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-right: 24px;
+  background-color: #FFFFFF3D;
+}
+
+.card-a{
+
+  padding: 12px 10px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.supporting-text{
+  width: 295px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
 .about-div {
+  margin-top: 120px;
   display: flex;
   background-color: #1c1a19;
   background-image: url(./images/Frame.png);
@@ -251,7 +430,6 @@
 }
 
 .about-btn {
-  width: 161px;
   height: 48px;
   background-color: #ff6b00;
   color: white;
@@ -438,6 +616,7 @@ footer {
 .popup-content > ul > li {
   color: #3c3a39;
   border: 1px solid #979493;
+  padding: 12px 12px;
 }
 
 .modal-links > li:hover {
@@ -496,6 +675,34 @@ article.popup-content > * {
   height: 220px;
 }
 
+.project-tags {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+}
+.project-tags li {
+  color: #3c3a39;
+  border: 1px solid #979493;
+  padding: 12 12;
+}
+
+.project-image  {
+  height: 220px;
+  width: 311px;
+  left: 16px;
+  top: 170px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  }
+  
+  .popup-content > button {
+    width: max-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: r;
+    gap: 5px;
+  }
 
 @media only screen and (min-width: 768px) {
   .heading {
@@ -563,13 +770,6 @@ article.popup-content > * {
     height: 800px;
   }
 
-  .work-section h1 {
-    border: none;
-    text-align: left;
-    font-size: 40px;
-    font-weight: 400;
-  }
-
   .main h1 {
     position: relative;
     font-size: 72px;
@@ -632,7 +832,42 @@ article.popup-content > * {
   }
 
   .work-section {
-    margin-left: 141px;
+    overflow: hidden;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  .img-container{
+    margin-left: 150px;
+    width: 1120px;
+    gap: 10px 20px;
+    display: grid;
+    grid-template-columns: 369px 369px 369px;
+    grid-template-rows:1fr 1fr 1fr ;
+  }
+  
+  .article-btn {
+    margin-left: -65%;
+  }
+
+  .multi-post {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-column-start: span 3;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .multi-post img {
+    height: 448px;
+    width: 684px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+
+  .card-body {
+    margin-top: 24px;
   }
 
   .work-text {
@@ -768,10 +1003,11 @@ article.popup-content > * {
     width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
     padding: 25px;
     background-color: #fff;
+    justify-content: center;
   }
 
   .close-popup > i {
@@ -829,16 +1065,5 @@ article.popup-content > * {
   .multi-post{
     display: flex;
     flex-direction: row;
-  }
-
-  .project-tags {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    list-style: none;
-  }
-  .project-tags li {
-    color: #3c3a39;
-    border: 1px solid #979493;
   }
 }

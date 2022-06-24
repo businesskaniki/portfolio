@@ -65,7 +65,7 @@ function addProjectCards() {
             <a href="" class="card-a">ruby</a>
           </li>
         </ul>
-        <button   type="button" class="project-btn">see project</button>`;
+        <button    class="project-btn">see project</button>`;
     projects.appendChild(div);
   }
 }
@@ -230,7 +230,7 @@ function popup(i) {
 
   const btnIcon = document.createElement('img');
   btnIcon.setAttribute('src', 'Icons/Iconlive.png');
-  btnIcon.setAttribute('alt', 'button icon');
+  btnIcon.setAttribute('alt', '');
   buttonLive.appendChild(btnIcon);
 
   const btnIcon2 = document.createElement('i');
