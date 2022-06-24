@@ -1055,12 +1055,12 @@ article.popup-content > * {
   .imagediv {
     width: 659px;
   }
+
   .imagediv.project-image {
     height: 448px;
     width: 659px;
     left: 24px;
     top: 156px;
-    border-radius: 0px;
   }
 
   .project-image {
@@ -1076,11 +1076,19 @@ article.popup-content > * {
   .paradiv {
     padding-left: 24px;
     padding-right: 24px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+  }
+
+  .paradiv p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   .popup-content > img {

@@ -208,17 +208,15 @@ function popup(i) {
   div1 .classList.add('imagediv');
   image.classList.add('project-image');
   div1.appendChild(image);
-  // popupContent.appendChild(div);
 
   const para = document.createElement('p');
   const pardiv = document.createElement('div');
-  pardiv.classList.add('paradiv')
+  pardiv.classList.add('paradiv');
   para.classList.add('project-description');
   pardiv.appendChild(para);
 
   alldiv.append(div1, pardiv);
   popupContent.appendChild(alldiv);
-  
 
   const buttonLive = document.createElement('button');
   buttonLive.classList.add('project-btn', 'popup-btn-live');
