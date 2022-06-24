@@ -23,3 +23,12 @@ function populateForm() {
   userEmail.value = getData.email;
   userText.value = getData.text;
 }
+
+document.addEventListener('DOMContentLoaded', populateForm);
+
+resetBtn.addEventListener('click', () => {
+  userName.value = '';
+  userEmail.value = '';
+  userText.value = '';
+  localStorage.clear();
+});
