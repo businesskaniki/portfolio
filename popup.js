@@ -205,7 +205,7 @@ function popup(i) {
 
   const image = document.createElement('img');
   const div1 = document.createElement('div');
-  div1 .classList.add('imagediv');
+  div1.classList.add('imagediv');
   image.classList.add('project-image');
   div1.appendChild(image);
 
