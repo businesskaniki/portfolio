@@ -656,7 +656,7 @@ footer {
 .popupLink {
   text-decoration: none;
   color: white;
-  padding: 27px;
+  padding: 24px;
 }
 
 article.popup-content > * {
@@ -1030,10 +1030,10 @@ article.popup-content > * {
     width: 80%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
     padding: 25px;
     background-color: #fff;
-    justify-content: center;
   }
 
   .close-popup > i {
@@ -1045,16 +1045,49 @@ article.popup-content > * {
 
   .popup-content > p {
     position: absolute;
-    right: 0%;
+    right: 6%;
     width: 35%;
     top: 26%;
     color: #344563;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .imagediv {
+    width: 659px;
+  }
+  .imagediv.project-image {
+    height: 448px;
+    width: 659px;
+    left: 24px;
+    top: 156px;
+    border-radius: 0px;
+  }
+
+  .project-image {
+    height: 448px;
+    width: 659px;
+  }
+
+  .alldiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .paradiv {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
   }
 
   .popup-content > img {
     width: 659px;
     height: 448px;
     padding-top: 30px;
+    position: static;
   }
 
   .popup-content > button {

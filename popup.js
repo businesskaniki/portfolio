@@ -200,13 +200,25 @@ function popup(i) {
   ul.classList.add('project-tags');
   popupContent.appendChild(ul);
 
+  const alldiv = document.createElement('div');
+  alldiv.classList.add('alldiv');
+
   const image = document.createElement('img');
+  const div1 = document.createElement('div');
+  div1 .classList.add('imagediv');
   image.classList.add('project-image');
-  popupContent.appendChild(image);
+  div1.appendChild(image);
+  // popupContent.appendChild(div);
 
   const para = document.createElement('p');
+  const pardiv = document.createElement('div');
+  pardiv.classList.add('paradiv')
   para.classList.add('project-description');
-  popupContent.appendChild(para);
+  pardiv.appendChild(para);
+
+  alldiv.append(div1, pardiv);
+  popupContent.appendChild(alldiv);
+  
 
   const buttonLive = document.createElement('button');
   buttonLive.classList.add('project-btn', 'popup-btn-live');
