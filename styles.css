@@ -536,7 +536,7 @@ footer {
   .nav-ul {
     display: flex;
     flex-direction: row;
-    width: 0px;
+    width: 0;
     height: 0;
     text-align: center;
     align-items: center;
@@ -596,7 +596,7 @@ footer {
     border: none;
     text-align: left;
     font-size: 40px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   .main h1 {
@@ -682,12 +682,12 @@ footer {
 
   .work-text h2 {
     font-size: 40px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   .work-text p {
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #091e42;
     line-height: 28px;
     font-family: "Inter", sans-serif;
@@ -707,7 +707,6 @@ footer {
 
   .cards {
     justify-content: left;
-    align-items: left;
     margin-bottom: 120px;
     margin-left: 141px;
     margin-right: 141px;
@@ -724,7 +723,7 @@ footer {
 
   .about-heading {
     font-size: 72px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   .about-descrp {
@@ -764,7 +763,6 @@ footer {
   }
 
   .lang-ul {
-    align-items: left;
     text-align: left;
   }
 
