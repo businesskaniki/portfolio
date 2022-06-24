@@ -317,10 +317,14 @@
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </h2>
-      <form action="" class="form">
+<<<<<<< HEAD
+      <form action="https://formspree.io/f/myyoovzw" method="post" class="form">
+=======
+      <form action="#" class="form">
+>>>>>>> 883275a1ff09e0cee31cd65715b90b84d11f1796
         <ul class="form-ul">
           <li>
-            <label for="name">full name</label>
+            <label id="name" for="name">full name</label>
             <input
               type="text"
               placeholder="Full name"
@@ -330,8 +334,9 @@
             />
           </li>
           <li>
-            <label for="mail">Email Adress:</label>
+            <label for="user_email">Email Adress:</label>
             <input
+             id="user-email"
               type="email"
               placeholder="Email adress"
               name="user_email"
@@ -348,7 +353,11 @@
             ></textarea>
           </li>
         </ul>
-        <button>get in touch</button>
+        <div class="form-btn">
+          <button type="submit">get in touch</button>
+          <button type="reset" class="form-reset">Reset form</button>
+        </div>
+        <button type="button">get in touch</button>
       </form>
     </section >
     <footer>
@@ -370,5 +379,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./validation.js"></script>
   </body>
 </html>
