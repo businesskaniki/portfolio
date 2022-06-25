@@ -1,7 +1,7 @@
-const form = document.querySelector('form');
+const form = document.querySelector('.form');
 const email = form.elements['user-email'];
 const message = document.createElement('small');
-message.classList.add('form-message');
+message.classList.add('.form-message');
 
 form.appendChild(message);
 
