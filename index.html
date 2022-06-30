@@ -18,18 +18,16 @@
   </head>
   <body>
     <header class="nav">
-      <a class="heading" href="#main">John Doe</a>
+      <a class="heading" href="#">John Doe</a>
       <ul class="nav-ul">
         <li>
-          <a href="#cards">portfolio</a>
+          <a class="link" href="#main">portfolio</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a class="link" href="#about">About</a>
         </li>
         <li>
-        </li>
-        <li id="envelope">
-          <a href=""><i class="fa-solid fa-envelope"></i></a>
+          <a class="link" href="#footer">Contact</a>
         </li>
       </ul>
       <div id="humb">
@@ -38,7 +36,7 @@
         <span class="bar"></span>
       </div>
     </header>
-    <section class="main" id="main">
+    <section class="main">
       <h1>Hey There. I`m Nick</h1>
       <h4>i am a software developer</h4>
       <p>
@@ -64,10 +62,10 @@
         </li>
       </ul>
     </section>
-    <section class="work-section" id="about">
-      <h1>My Recent Works</h1>
+    <section class="work-section" >
+      <h1 id="main">My Recent Works</h1>
       <div class="img-container">
-        <img src="./images/Img Placeholder(11).png" alt="My recent work image" />
+        <img src="./images/image1.png" alt="image" />
         <div class="work-text">
           <h2>Multi-Posts Stories</h2>
           <p>
@@ -89,7 +87,7 @@
               <a href="#">Ruby</a>
             </li>
           </ul>
-          <button>see project</button>
+          <button type="button">see project</button>
         </div>
       </div>
     </section>
@@ -113,7 +111,7 @@
             <a href="" class="card-a">ruby</a>
           </li>
         </ul>
-        <button class="card-btn">see project</button>
+        <button   type="button" class="card-btn">see project</button>
       </div>
       <div class="card-body">
         <h1 class="card-title">Profesional Art Printing Data</h1>
@@ -134,7 +132,7 @@
             <a href="" class="card-a">rubby</a>
           </li>
         </ul>
-        <button class="card-btn">see project</button>
+        <button  type="button" class="card-btn">see project</button>
       </div>
       <div class="card-body">
         <h1 class="card-title">Profesional Art Printing Data</h1>
@@ -155,7 +153,7 @@
             <a href="" class="card-a">ruby</a>
           </li>
         </ul>
-        <button class="card-btn">see project</button>
+        <button  type="button" class="card-btn">see project</button>
       </div>
       <div class="card-body">
         <h1 class="card-title">Profesional Art Printing Data</h1>
@@ -176,7 +174,7 @@
             <a href="" class="card-a">rubby</a>
           </li>
         </ul>
-        <button class="card-btn">see project</button>
+        <button  type="button" class="card-btn">see project</button>
       </div>
       <div class="card-body">
         <h1 class="card-title">Profesional Art Printing Data</h1>
@@ -197,7 +195,7 @@
             <a href="" class="card-a">rubby</a>
           </li>
         </ul>
-        <button class="card-btn">see project</button>
+        <button  type="button" class="card-btn">see project</button>
       </div>
       <div class="card-body">
         <h1 class="card-title">Profesional Art Printing Data</h1>
@@ -218,10 +216,10 @@
             <a href="" class="card-a">rubby</a>
           </li>
         </ul>
-        <button class="card-btn">see project</button>
+        <button  type="button" class="card-btn">see project</button>
       </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="about-div">
         <div class="contents-about">
           <h1 class="about-heading">About me</h1>
@@ -231,7 +229,7 @@
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-          <button class="about-btn">Get My Resume</button>
+          <button  type="button" class="about-btn">Get My Resume</button>
         </div>
       </div>
       <div class="languages">
@@ -312,16 +310,15 @@
         </ul>
       </div>
     </section>
-    <section class="footer" id="footer">
+    <section class="footer">
       <h2 class="footer-text">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </h2>
-<<<<<<< HEAD
       <form action="https://formspree.io/f/myyoovzw" method="post" class="form">
-=======
+
       <form action="#" class="form">
->>>>>>> 883275a1ff09e0cee31cd65715b90b84d11f1796
+
         <ul class="form-ul">
           <li>
             <label id="name" for="name">full name</label>
@@ -330,6 +327,7 @@
               placeholder="Full name"
               name="user_name"
               maxlength="30"
+              id="name"
               required
             />
           </li>
@@ -340,6 +338,7 @@
               type="email"
               placeholder="Email adress"
               name="user_email"
+              id="mail"
               required
             />
           </li>
@@ -349,6 +348,7 @@
               placeholder="Enter text here"
               name="user_message"
               maxlength="500"
+              id="msg"
               required
             ></textarea>
           </li>
@@ -379,6 +379,7 @@
         </li>
       </ul>
     </footer>
-    <script src="./validation.js"></script>
+    <script src="./index.js"></script>
+    <script src="./popup.js"></script>
   </body>
 </html>
